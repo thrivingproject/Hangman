@@ -100,7 +100,6 @@ void hangman()
         // Win and end game if user guesses all letters
         if (!wordLetters.size())
         {
-            cout << endl << "Word: " << word << endl;
             cout << "\nGG! You guessed correctly! You are brilliant!" << endl;
             lose = false;
             break;
@@ -119,6 +118,7 @@ void hangman()
     }
 
     // Display losing message
+    cout << endl << "Word: " << word << endl;
     if (lose)
     {
         cout << "\nGame over! Please try again." << endl;
