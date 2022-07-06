@@ -1,6 +1,6 @@
 /*
  * Christian Isaman
- * Comiler: Visual Studio
+ * Compiler: Visual Studio
  * Language Standard: ISO C++20 Standard (/std:c++20)
  * OS: Windows 11
  * Feature 1: Display number of incorrect guesses after each turn.
