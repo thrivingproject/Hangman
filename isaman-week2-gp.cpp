@@ -117,7 +117,7 @@ void hangman()
         cout << endl;
     }
 
-    // Display losing message
+    // Display word and losing message
     cout << endl << "Word: " << word << endl;
     if (lose)
     {
